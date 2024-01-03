@@ -1,0 +1,301 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./images/netflix\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+nav{
+    display: flex;
+    padding: 0px 165px;
+    justify-content: space-between;
+}
+nav > div{
+    display: flex;
+}
+nav > #logo > img{
+    width: 18%;
+}
+nav > #login{
+    display: flex;  
+    align-items: center;    
+    height: 30px;
+    gap: 20px;
+    margin-top: 30px;
+}
+nav > #login > select{
+    height: 30px;
+    padding-left: 35px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+nav > #login > select:focus{
+    border: 2px solid white;
+}
+nav > #login > .fa-language{
+    position: relative;
+    color: white;
+    top: 0%;
+    left: 20.5%;
+}
+nav > #login > button{
+    height: 30px;
+    padding: 0px 15px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+nav > #login > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#main{
+    margin-bottom: 22.8rem;
+}
+#main > #head{
+    position: relative;
+    margin-top: 8%;
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+#main > #head > h1 {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+#main > #head > h2 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 25px;
+}
+#main > #head > h3 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    /* font-size: 20px; */
+}
+#email-cont{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#main > #email-cont > input{
+    background-color: transparent;
+    height: 3rem;
+    width: 25%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+#main > #email-cont > button{
+    background-color: red;
+    border: none;
+    border-radius:5px;
+    width: 10.5%;
+}
+#main > #email-cont > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding-right: 18px;
+    font-weight: 600;
+}
+#main > #email-cont > .fa-angle-right{
+    position: relative;
+    top: 17.5px;
+    left: 562px;
+    color: white;
+}
+#tv > #cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    border-top: 8px solid rgb(37, 36, 36);
+    border-bottom:8px solid rgb(37, 36, 36) ;
+}
+#tv > #cont > #left{
+    color: white;
+    margin-top: 6rem;
+}
+#tv > #cont > #left > h1{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+#tv > #cont > #left > p{
+    font-size: 1.3rem;
+} 
+#tv > #cont > #right > img{
+    position: relative;
+    width: 36rem;
+    z-index: 1;
+}
+#tv > #cont > #right > video{
+    position: absolute;
+    width: 26.3rem;
+    top:66rem ;
+    left:56rem ;
+    z-index: 0;
+}
+
+#phone{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    border-bottom:8px solid rgb(37, 36, 36) ;
+}
+#phone > #ri{
+    color: white;
+    margin-top: 6rem;
+}
+#phone > #ri > h1{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+#phone > #ri > p{
+    font-size: 1.3rem;
+} 
+#phone > #le > #img > img{
+    width: 36rem;
+}
+#phone > #le > #text{
+    border: 2px solid #c6c6c6;
+    border-radius: 10px;
+}
+#phone > #le > #text{
+    display: flex;
+    position: relative;
+    background-color: black;
+    top: -28%;
+    left: 22%;
+    width: 55%;
+}
+#phone > #le > #text > #box > img{
+    width:4rem ;
+    padding-left: 10px;
+    padding-top: 5.5px;
+}
+#phone > #le > #text > #name{
+    padding-left: 20px;
+    margin-top: 5%;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+#phone > #le > #text > #name > h3{
+    color: #ffffff;
+    margin-bottom: 0%;
+}
+#phone > #le > #text > #name > h4{
+    color: #0071eb;
+    margin-top: 0%;
+}
+#phone > #le > #text > #down > a{
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.8rem;
+    top: 32%;
+    left: 80%;
+}
+#devices > #conthree{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    border-bottom:8px solid rgb(37, 36, 36) ;
+}
+#devices > #conthree > #leftt{
+    color: white;
+    margin-top: 6rem;
+}
+#devices > #conthree > #leftt > h1{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+#devices > #conthree > #leftt > p{
+    font-size: 1.3rem;
+} 
+#devices > #conthree > #rightt > img{
+    position: relative;
+    width: 36rem;
+    z-index: 1;
+}
+#devices > #conthree > #rightt > video{
+    position: absolute;
+    width: 22.3rem;
+    top:136rem ;
+    left:58rem ;
+    z-index: 0;
+}
+#children > #contfour{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    border-bottom:8px solid rgb(37, 36, 36) ;
+}
+#children > #contfour > #roight{
+    color: white;
+    margin-top: 6rem;
+}
+#children > #contfour > #roight > h1{
+    font-size: 3rem;
+    font-weight:bolder;
+}
+#children > #contfour > #roight > p{
+    font-size: 1.3rem;
+} 
+#children > #contfour > #loft > img{
+    width: 36rem;
+}
+/* @media only screen and (min-width:300px)and (max-width:738px){
+    #tv > #cont > #right > img{
+        width: 26rem;
+        align-self: center;
+    }
+    #tv > #cont{
+        display: flex;
+        justify-content: center;
+         
+        padding: 3rem 14rem;
+        border-top: 8px solid rgb(37, 36, 36);
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #phone > #contwo{
+        display: flex;
+        justify-content: center;
+        padding: 3rem 14rem;
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #devices > #conthree{
+        display: flex;
+        justify-content:center;
+        padding: 3rem 14rem;
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #children > #contfour{
+        display: flex;
+        justify-content: center;
+        padding: 3rem 14rem;
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #phone > #contwo > #le > img{
+        width: 16rem;
+    }
+    #devices > #conthree > #rightt > img{
+        width: 16rem;
+    }
+    #children > #contfour > #loft > img{
+        width: 16rem;
+    }
+} */
+    
